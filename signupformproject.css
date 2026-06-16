@@ -20,7 +20,7 @@
 /* Sidebar */
 
 .sidebar {
-    width: 25%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -49,18 +49,49 @@
     font-size: 6rem;
 }
 
-
-
 .credit {
     text-align: center;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Main Content */
 
 .maincontent {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+    justify-content: center;
 }
+
+.spacer {
+    height: 1rem;
+}
+
+.formintro {
+    width: 50rem;
+    padding: 0 2rem;
+}
+
+.introtext {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.formcontainer {
+    background-color: #ffffff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.forminner {
+    display: flex;
+    gap: 5rem;
+}
+
+
+
 
